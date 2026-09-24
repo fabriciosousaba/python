@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel da Loja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="dashboard">
+        <header class="topbar">
+            <div>
+                <p class="eyebrow">Sistema de dados</p>
+                <h1>Painel da Loja</h1>
+            </div>
+            <button class="profile" type="button" aria-label="Abrir perfil">FS</button>
+        </header>
+
+        <section class="welcome">
+            <div>
+                <p class="eyebrow">Visao geral</p>
+                <h2>Organize seus registros.</h2>
+                <p class="welcome-text">Acompanhe clientes, produtos e vendas em um unico lugar.</p>
+            </div>
+            <span class="status"><span></span> Banco conectado</span>
+        </section>
+
+        <section class="cards" aria-label="Resumo do sistema">
+            <article class="card card-blue">
+                <div class="card-icon">CL</div>
+                <p>Clientes</p>
+                <strong>24</strong>
+                <span>Registros ativos</span>
+            </article>
+            <article class="card card-orange">
+                <div class="card-icon">PR</div>
+                <p>Produtos</p>
+                <strong>38</strong>
+                <span>Itens cadastrados</span>
+            </article>
+            <article class="card card-green">
+                <div class="card-icon">VD</div>
+                <p>Vendas</p>
+                <strong>16</strong>
+                <span>Movimentacoes recentes</span>
+            </article>
+        </section>
+
+        <section class="content-grid">
+            <article class="panel">
+                <div class="panel-heading">
+                    <div>
+                        <p class="eyebrow">Atalhos</p>
+                        <h2>Acoes rapidas</h2>
+                    </div>
+                </div>
+                <div class="actions">
+                    <button type="button" class="action action-primary"><span>+</span> Novo cliente</button>
+                    <button type="button" class="action"><span>+</span> Novo produto</button>
+                    <button type="button" class="action"><span>+</span> Registrar venda</button>
+                </div>
+            </article>
+
+            <article class="panel activity-panel">
+                <div class="panel-heading">
+                    <div>
+                        <p class="eyebrow">Historico</p>
+                        <h2>Ultimos registros</h2>
+                    </div>
+                    <button class="text-button" type="button">Ver todos</button>
+                </div>
+                <ul class="activity-list">
+                    <li><span class="dot dot-blue"></span><div><strong>Cliente adicionado</strong><small>Hoje, 09:42</small></div></li>
+                    <li><span class="dot dot-orange"></span><div><strong>Produto atualizado</strong><small>Ontem, 16:18</small></div></li>
+                    <li><span class="dot dot-green"></span><div><strong>Venda registrada</strong><small>Ontem, 11:05</small></div></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
